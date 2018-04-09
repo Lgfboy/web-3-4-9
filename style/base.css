@@ -783,8 +783,8 @@ nav ul li .hui{
     text-align: center;
 }
 .bottom .bottom-nav li{
-    display: inline-block;
-    width: 22%;
+    float:left;
+    width: 25%;
     height: 0.9rem;
     margin-top: 0.04rem;
 }
