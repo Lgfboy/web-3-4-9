@@ -13,7 +13,7 @@
     -webkit-transform: translateX(-50%);
     z-index: 9999;
 }
-.m_layout .head>.left{
+.m_layout .head>a>.left{
     width: 0.56rem;
     height: auto;
     position: fixed;
@@ -28,7 +28,7 @@
     top: 0.2rem;
     left: 36%;
 }
-.m_layout .head>.right{
+.m_layout .head>a>.right{
     width: 0.5rem;
     height: auto;
     position: fixed;
