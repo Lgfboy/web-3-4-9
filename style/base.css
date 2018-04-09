@@ -304,7 +304,8 @@ nav ul li .hui{
     color:#565656;
 }
 .main_wrap .zx-money .top-tit .xu {
-
+    width:7.5rem;
+    height:auto;
 }
 .main_wrap .zx-money .xz .left-con{
     width: 50%;
