@@ -769,7 +769,7 @@ nav ul li .hui{
 .bottom{
     min-width: 3.2rem;
     max-width: 7.5rem;
-    height: auto;
+    height: 100%;
     width:100%
 }
 .bottom .bottom-nav{
@@ -784,7 +784,7 @@ nav ul li .hui{
 }
 .bottom .bottom-nav li{
     display: inline-block;
-    width: 23.5%;
+    width: 22%;
     height: 0.9rem;
     margin-top: 0.04rem;
 }
