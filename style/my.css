@@ -168,10 +168,9 @@
     border-bottom: 0.01rem solid #e8e8e8;
 }
 .m_layout .dd-x .d1{
-    width: 25%;
+    width: 24%;
     height: auto;
     text-align: center;
-   
     float:left;
 }
 .m_layout .dd-x .d1 img{
