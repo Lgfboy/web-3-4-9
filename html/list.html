@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>产品列表分类</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <link rel="icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../style/base.css">
+    <script src="../fonts/adaptive.js"></script>
+    <link rel="stylesheet" href="../style/list.css">
+    <script src="../js/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".tabs a ").click(function() {
+                $(".tabs a li").removeClass("current");
+                $(this).children("li").addClass("current");
+
+                $(".right-cp").hide(0);
+                $(".right-cp:eq(" + $(this).index() + ")").show(0);
+            });
+        });
+    </script>
+</head>
+<body>
+  <header class="m_layout">
+<!--头部导航开始-->
+      <div class="head">
+          <a href="../index.html">
+              <img class="left" src="../images/fl.jpg" alt="">
+          </a>
+          <p>尚品宅配家居网</p>
+          <img class="right" src="../images/下载%20(1).png" alt="">
+      </div>
+<!--头部导航结束-->
+<!--产品搜索开始-->
+      <div class="search-head">
+          <a href="../index.html">
+              <img class="left" src="../images/left.jpg" alt="">
+          </a>
+          <div class="search">
+              <input type="text" placeholder="尚品家居">
+              <img src="../images/search.png" alt="">
+          </div>
+          <a href="my.html"><img class="right" src="../images/login-ico.png" alt=""></a>
+      </div>
+<!--产品搜索结束-->
+  </header>
+<main class="m_layout left-list">
+    <!--产品分类导航开始-->
+    <div class="left-nav">
+        <ul class="nav tabs">
+            <a href="javascript:">
+                <li class="tj current">
+                    <p>推荐分类</p>
+                </li>
+            </a>
+            <a href="javascript:">
+                <li><p>家装馆</p></li>
+            </a>
+            <a href="javascript:">
+                <li><p>家装主材</p></li>
+            </a>
+            <a href="javascript:">
+                <li><p>精品家具</p></li>
+            </a>
+            <a href="javascript:">
+                <li><p>家纺家饰</p></li>
+            </a>
+            <a href="javascript:">
+                <li><p>家用电器</p></li>
+            </a>
+        </ul>
+    </div>
+    <!--产品分类导航结束-->
+    <!--产品排版开始-->
+    <div class="right-cp" style="display: block">
+        <div class="tit">
+            <img src="../images/tit.png" alt="">
+            <p>热门推荐</p>
+        </div>
+        <ul class="cp">
+            <a href="details.html">
+                <li>
+                    <img src="../images/1.jpg" alt="">
+                    <p>热水器</p>
+                </li>
+            </a>
+            <li>
+                <img src="../images/2.jpg" alt="">
+                <p>电磁炉</p>
+            </li>
+            <li>
+                <img src="../images/3.jpg" alt="">
+                <p>空调</p>
+            </li>
+            <li>
+                <img src="../images/4.jpg" alt="">
+                <p>电视</p>
+            </li>
+            <li>
+                <img src="../images/5.jpg" alt="">
+                <p>沙发</p>
+            </li>
+            <li>
+                <img src="../images/6.jpg" alt="">
+                <p>茶几</p>
+            </li>
+            <li>
+                <img src="../images/7.jpg" alt="">
+                <p>床</p>
+            </li>
+            <li>
+                <img src="../images/8.jpg" alt="">
+                <p>床头柜</p>
+            </li>
+            <li>
+                <img src="../images/9.jpg" alt="">
+                <p>衣柜</p>
+            </li>
+            <li>
+                <img src="../images/10.jpg" alt="">
+                <p>儿童床</p>
+            </li>
+            <li>
+                <img src="../images/11.jpg" alt="">
+                <p>餐桌</p>
+            </li>
+            <li>
+                <img src="../images/12.jpg" alt="">
+                <p>餐椅</p>
+            </li>
+        </ul>
+    </div>
+    <div class="clearfix"></div>
+    <!--产品排版结束-->
+    <!--产品排版开始2-->
+    <div class="right-cp" style="display: none">
+        <div class="tit">
+            <img src="../images/tit.png" alt="">
+            <p>家装馆</p>
+        </div>
+        <ul class="cp">
+            <a href="details.html">
+                <li>
+                    <img src="../images/1.jpg" alt="">
+                    <p>热水器</p>
+                </li>
+            </a>
+            <li>
+                <img src="../images/2.jpg" alt="">
+                <p>电磁炉</p>
+            </li>
+            <li>
+                <img src="../images/3.jpg" alt="">
+                <p>空调</p>
+            </li>
+            <li>
+                <img src="../images/4.jpg" alt="">
+                <p>电视</p>
+            </li>
+            <li>
+                <img src="../images/5.jpg" alt="">
+                <p>沙发</p>
+            </li>
+            <li>
+                <img src="../images/6.jpg" alt="">
+                <p>茶几</p>
+            </li>
+            <li>
+                <img src="../images/7.jpg" alt="">
+                <p>床</p>
+            </li>
+            <li>
+                <img src="../images/8.jpg" alt="">
+                <p>床头柜</p>
+            </li>
+            <li>
+                <img src="../images/9.jpg" alt="">
+                <p>衣柜</p>
+            </li>
+            <li>
+                <img src="../images/10.jpg" alt="">
+                <p>儿童床</p>
+            </li>
+            <li>
+                <img src="../images/11.jpg" alt="">
+                <p>餐桌</p>
+            </li>
+            <li>
+                <img src="../images/12.jpg" alt="">
+                <p>餐椅</p>
+            </li>
+        </ul>
+    </div>
+    <div class="clearfix"></div>
+    <!--产品排版结束-->
+    <!--产品排版开始3-->
+    <div class="right-cp" style="display: none">
+        <div class="tit">
+            <img src="../images/tit.png" alt="">
+            <p>家装主材</p>
+        </div>
+        <ul class="cp">
+            <a href="details.html">
+                <li>
+                    <img src="../images/c1.jpg" alt="">
+                    <p>热水器</p>
+                </li>
+            </a>
+            <li>
+                <img src="../images/c2.jpg" alt="">
+                <p>电磁炉</p>
+            </li>
+            <li>
+                <img src="../images/c3.jpg" alt="">
+                <p>空调</p>
+            </li>
+            <li>
+                <img src="../images/c4.jpg" alt="">
+                <p>电视</p>
+            </li>
+            <li>
+                <img src="../images/c5.jpg" alt="">
+                <p>沙发</p>
+            </li>
+            <li>
+                <img src="../images/c6.jpg" alt="">
+                <p>茶几</p>
+            </li>
+            <li>
+                <img src="../images/c7.jpg" alt="">
+                <p>床</p>
+            </li>
+            <li>
+                <img src="../images/c8.jpg" alt="">
+                <p>床头柜</p>
+            </li>
+            <li>
+                <img src="../images/c9.jpg" alt="">
+                <p>衣柜</p>
+            </li>
+            <li>
+                <img src="../images/c10.jpg" alt="">
+                <p>儿童床</p>
+            </li>
+            <li>
+                <img src="../images/c11.jpg" alt="">
+                <p>餐桌</p>
+            </li>
+            <li>
+                <img src="../images/c12.jpg" alt="">
+                <p>餐椅</p>
+            </li>
+        </ul>
+        <div class="tit">
+            <img src="../images/tit.png" alt="">
+            <p>户外庭院家具</p>
+        </div>
+        <div class="tit">
+            <img src="../images/tit.png" alt="">
+            <p>卧室</p>
+        </div>
+        <ul class="cp">
+            <a href="details.html">
+                <li>
+                    <img src="../images/7.jpg" alt="">
+                    <p>床</p>
+                </li>
+            </a>
+            <li>
+                <img src="../images/8.jpg" alt="">
+                <p>床头柜</p>
+            </li>
+            <li>
+                <img src="../images/9.jpg" alt="">
+                <p>衣柜</p>
+            </li>
+            <li>
+                <img src="../images/10.jpg" alt="">
+                <p>大床</p>
+            </li>
+            <li>
+                <img src="../images/11.jpg" alt="">
+                <p>桌子</p>
+            </li>
+            <li>
+                <img src="../images/12.jpg" alt="">
+                <p>椅子</p>
+            </li>
+        </ul>
+    </div>
+    <div class="clearfix"></div>
+    <!--产品排版结束-->
+    <!--客服-->
+    <div class="kf">
+        <a href="">
+            <img src="../images/kefu.png" alt="">
+        </a>
+    </div>
+    <!--客服-->
+    <!--底部导航开始-->
+    <div class="bottom">
+        <ul class="bottom-nav" style="">
+            <a href="../index.html">
+                <li class="li-1">
+                    <p>首页</p>
+                </li  >
+            </a>
+            <a href="#">
+                <li class="li-2">
+                    <p>分类</p>
+                </li>
+            </a>
+            <a href="">
+                <li class="li-3">
+                    <p>购物车</p>
+                </li>
+            </a>
+            <a class="my" href="my.html">
+                <li class="li-4">
+                    <p>我的</p>
+                </li>
+            </a>
+        </ul>
+    </div>
+    <!--底部导航结束-->
+</main>
+</body>
+</html>

@@ -1,0 +1,221 @@
+/*头部导航开始*/
+.m_layout .head{
+    min-width: 3.2rem;
+    max-width: 7.5rem;
+    width: 100%;
+    height: 0.88rem;
+    background: #e3393c;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    z-index: 100;
+}
+.m_layout .head>a>.left{
+    width: 0.56rem;
+    height: auto;
+    position: fixed;
+    top: 0.16rem;
+    left: 0.2rem;
+}
+.m_layout .head p{
+    font-size: 0.32rem;
+    color: #fffbff;
+    display: inline-block;
+    position: fixed;
+    top: 0.2rem;
+    left: 40%;
+}
+.m_layout .head>.right{
+    width: 0.5rem;
+    height: auto;
+    position: fixed;
+    right: 0.2rem;
+    top: 0.2rem;
+}
+/*登录开始*/
+.m_layout .tit-dl{
+    width: 100%;
+    height: 0.86rem;
+    margin-top: 0.88rem;
+    border-bottom: 0.01rem solid #e1e1e1;
+    border-top: 0.01rem solid #e1e1e1;
+}
+.m_layout .tit-dl .left{
+    width: 3.74rem;
+    height: 100%;
+    display: inline-block;
+    float: left;
+}
+.m_layout .tit-dl .left p{
+    font-size: 0.32rem;
+    color: #e35b59;
+    text-align: center;
+    line-height: 0.86rem;
+}
+.m_layout .tit-dl .right{
+    display: inline-block;
+    width: 3.74rem;
+    height: 100%;
+    float: right;
+    border-left: 0.01rem solid #e1e1e1;
+}
+.m_layout .tit-dl .right p{
+    font-size: 0.32rem;
+    color: #7c7b7b;
+    text-align: center;
+    line-height: 0.86rem;
+}
+.m_layout .input{
+    width: 100%;
+    height: 2.4rem;
+}
+.m_layout .input .ipt{
+    width: 100%;
+    height: 1.16rem;
+    border-bottom: 0.01rem solid #e1e1e1;
+}
+.m_layout .input .ipt input{
+    width: 5.5rem;
+    height: 0.6rem;
+    margin-top: 0.1rem;
+    font-size: 0.3rem;
+    padding-left: 0.4rem;
+}
+.m_layout .input .ipt span{
+    font-size: 0.3rem;
+    color: #262626;
+    line-height: 1.16rem;
+    margin-left: 0.2rem;
+}
+.m_layout .input .ipt input[type=text]::-webkit-input-placeholder{
+    color: #bbb;
+}
+
+.m_layout .input .mm{
+    width: 100%;
+    height: 1.16rem;
+}
+.m_layout .input .mm input{
+    width: 5.5rem;
+    height: 0.6rem;
+    margin-top: 0.1rem;
+    font-size: 0.3rem;
+    padding-left: 0.4rem;
+}
+.m_layout .input .mm span{
+    font-size: 0.3rem;
+    color: #262626;
+    line-height: 1.16rem;
+    margin-left: 0.2rem;
+}
+.m_layout .input .mm input[type=text]::-webkit-input-placeholder{
+    color: #bbbbbb;
+}
+
+.m_layout .gx{
+    width: 100%;
+    height: 0.6rem;
+    margin-top: 0.14rem;
+}
+.m_layout .gx img{
+    width: 0.44rem;
+    height: auto;
+    vertical-align: middle;
+    margin-left: 0.2rem;
+}
+.m_layout .gx span{
+    font-size: 0.3rem;
+    color: #292929;
+    vertical-align: middle;
+}
+.m_layout .but{
+    width: 100%;
+    height: 0.78rem;
+}
+.m_layout .but .dl{
+    width: 7.14rem;
+    height: 100%;
+    background: #fa4f3e;
+    text-align: center;
+    border-radius: 0.1rem;
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+}
+.m_layout .but .dl p{
+    font-size: 0.36rem;
+    color: white;
+    line-height: 0.78rem;
+}
+.m_layout .zc {
+    width: 100%;
+    height: 0.8rem;
+    margin-top: 0.3rem;
+}
+.m_layout .zc>span{
+    color: #3f3e3e;
+    font-size: 0.3rem;
+    margin-left: 0.2rem;
+}
+.m_layout .zc .right{
+    display: inline-block;
+    float: right;
+}
+.m_layout .zc .right>a>span{
+    font-size: 0.3rem;
+    color: #f26557;
+    margin-right: 0.2rem;
+}
+.m_layout .js {
+    width: 100%;
+    height: auto;
+    margin-top: 0.1rem;
+}
+.m_layout .js img{
+    width: 100%;
+    height: auto;
+}
+.m_layout .wb-qq{
+    width: 100%;
+    height: 1.8rem;
+    margin-top: 0.2rem;
+}
+.m_layout .wb-qq>a>.left{
+    width: 1.1rem;
+    height: auto;
+    margin-left: 2.22rem;
+}
+.m_layout .wb-qq>a>.right{
+    width: 1.1rem;
+    height: auto;
+    margin-left: 0.68rem;
+}
+.m_layout .bottom{
+    width: 100%;
+    height: 100%;
+}
+.m_layout .bottom>img{
+    width: 100%;
+    height: auto;
+}
+.m_layout .bottom>p{
+    font-size: 0.18rem;
+    color: #a5a5a5;
+    text-align: center;
+}
+.m_layout .bottom .pc{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.m_layout .bottom .pc img{
+    width: 0.26rem;
+    height: auto;
+    vertical-align: middle;
+}
+.m_layout .bottom .pc span{
+    font-size: 0.18rem;
+    color: #2ba1df;
+    vertical-align: middle;
+}

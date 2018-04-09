@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*头部导航开始*/
+.fix{
+    min-width: 3.2rem;
+    max-width: 7.5rem;
+    width: 100%;
+}
+.m_layout .head{
+    min-width: 3.2rem;
+    max-width: 7.5rem;
+    width: 100%;
+    height: 0.88rem;
+    background: #b72323;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    z-index: 100;
+}
+.m_layout .head>a>.left{
+    width: 0.56rem;
+    height: auto;
+    position: fixed;
+    top: 0.1rem;
+    left: 0.2rem;
+}
+.m_layout .head p{
+    font-size: 0.32rem;
+    color: #fffbff;
+    display: inline-block;
+    position: fixed;
+    top: 0.2rem;
+    left: 36%;
+}
+.m_layout .head>.right{
+    width: 0.5rem;
+    height: auto;
+    position: fixed;
+    right: 0.2rem;
+    top: 0.2rem;
+}
+/*收货地址开始*/
+.m_layout .dz{
+    margin-top: 0.88rem;
+    width: 100%;
+    height: 1.7rem;
+    border-bottom: 0.2rem solid #f7f3f7;
+}
+.m_layout .dz>p{
+    font-size: 0.28rem;
+    color: #6e6f6e;
+    display: inline-block;
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+}
+.m_layout .dz span{
+    font-size: 0.28rem;
+    color: #6e6f6e;
+    margin-left: 1.2rem;
+}
+.m_layout .dz>.text>p{
+    font-size: 0.28rem;
+    color: #6e6f6e;
+    display: inline-block;
+    margin-left: 0.2rem;
+}
+/*订单列表开始*/
+.m_layout .product{
+    width: 100%;
+    height: 100%;
+}
+.m_layout .product .list-1{
+    height: auto;
+    width: 100%;
+    border-bottom: 0.01rem solid #f5f5f5;
+}
+.m_layout .product .list-1 img{
+    width: 1.16rem;
+    height: auto;
+    border-radius: 0.1rem;
+    float: left;
+    margin: 0.3rem 0.3rem 0.2rem 0.2rem;
+}
+.m_layout .product .list-1>a>p{
+    font-size: 0.26rem;
+    color: #707070;
+    float: left;
+    line-height: 0.45rem;
+    margin-top: 0.36rem;
+}
+.m_layout .product .right{
+    float: right;
+    margin: 0.42rem 0.2rem 0 0;
+}
+.m_layout .product .right>span{
+    font-size: 0.28rem;
+    color: #f52c2d;
+}
+.m_layout .product .right p{
+    color: #585b58;
+    font-size: 0.28rem;
+    margin-left: 0.84rem;
+}
+.m_layout .bottom-top{
+    width: 100%;
+    height: 0.66rem;
+    text-align: center;
+    border-bottom: 0.2rem solid #f7f3f7;
+}
+.m_layout .bottom-top span{
+    font-size: 0.26rem;
+    color: #585658;
+    margin-top: 0.3rem;
+}
+.m_layout .bottom-top img{
+    width: 0.3rem;
+    height: auto;
+}
+.m_layout .yh{
+    width: 100%;
+    height: 2.1rem;
+    border-bottom: 0.2rem solid #f7f3f7;
+}
+.m_layout .yh .j{
+    width: 100%;
+    height: 50%;
+}
+.m_layout .yh .j p{
+    font-size: 0.32rem;
+    color: #585658;
+    display: inline-block;
+    float: left;
+    line-height: 0.9rem;
+    margin-left: 0.2rem;
+}
+.m_layout .yh .j img{
+    width: 0.8rem;
+    height: auto;
+    float: right;
+    margin-top: 0.22rem;
+    margin-right: 0.2rem;
+}
+/*选填信息开始*/
+.m_layout .time{
+    width: 100%;
+    height: 2.3rem;
+    border-bottom: 0.01rem solid #e8e8e8;
+}
+.m_layout .time .top{
+    width: 100%;
+    height: 1.2rem;
+}
+.m_layout .time .top>p{
+    font-size: 0.32rem;
+    color: #585658;
+    display: inline-block;
+    float: left;
+    margin: 0.2rem 0 0 0.2rem;
+}
+.m_layout .time .top .right{
+    display: inline-block;
+    width: 5.6rem;
+    height: 100%;
+    float: right;
+}
+.m_layout .time .top .right>div{
+    width: 2.3rem;
+    height: 0.6rem;
+    display: inline-block;
+}
+.m_layout .time .top .right>div img{
+    width: 0.44rem;
+    height: auto;
+    vertical-align: middle;
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+}
+.m_layout .time .top .right>div span{
+    font-size: 0.28rem;
+    color: #585658;
+    vertical-align: -0.12rem;
+}
+.m_layout .bottom-bz{
+    width: 100%;
+    height: 1rem;
+
+}
+.m_layout .bottom-bz>p{
+    font-size: 0.32rem;
+    color: #585658;
+    display: inline-block;
+    margin-left: 0.2rem;
+    margin-top: 0.3rem;
+}
+.m_layout .bottom-bz>input{
+    width: 4.9rem;
+    height: 0.56rem;
+    border: 0.01rem solid #dfe0df;
+    margin-left: 1.2rem;
+    padding-left: 0.2rem;
+    color: red;
+    font-size: 0.28rem;
+}
+/*支付方式开始*/
+.m_layout .payment{
+    width: 100%;
+    height: 0.84rem;
+    border-bottom: 0.01rem solid #e8e8e8;
+}
+.m_layout .payment p{
+    font-size: 0.32rem;
+    color: #585658;
+    display: inline-block;
+    line-height: 0.84rem;
+    margin-left: 0.2rem;
+}
+.m_layout .payment .zfb{
+    width: 2rem;
+    height: auto;
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+.m_layout .payment .zfb img{
+    width: 0.44rem;
+    height: auto;
+    vertical-align: middle;
+}
+.m_layout .payment .zfb span{
+    font-size: 0.28rem;
+    color: #5e5e5e;
+}
+/*配送方式开始*/
+.m_layout .pc{
+    width: 100%;
+    height: 1.9rem;
+    border-bottom: 0.2rem solid #f7f3f7;
+}
+.m_layout .pc p{
+    font-size: 0.32rem;
+    color: #585658;
+    line-height: 0.8rem;
+    margin-left: 0.2rem;
+}
+.m_layout .pc .xz{
+    width: 100%;
+    height: auto;
+    margin-left: 2rem;
+}
+.m_layout .pc .xz img{
+    width: 2.08rem;
+    height: auto;
+}
+.m_layout .je{
+    width: 100%;
+    height: auto;
+    padding-bottom: 1.1rem;
+}
+.m_layout .je img  {
+    width: 7.5rem;
+    height: auto;
+}
+/*底部开始*/
+.m_layout .bottom{
+    width: 100%;
+    height: 1.1rem;
+    background: #313031;
+    position: fixed;
+    bottom: 0;
+    max-width: 7.5rem;
+    min-width: 3.2rem;
+}
+.m_layout .bottom>p{
+    font-size: 0.32rem;
+    color: white;
+    line-height: 1.1rem;
+    margin-left: 0.2rem;
+    float: left;
+}
+.m_layout .bottom>p>span{
+    font-size: 0.32rem;
+    color: #f63a3b;
+}
+.m_layout .bottom .but{
+    width: 2.02rem;
+    height: 0.8rem;
+    margin:0.14rem 0.2rem 0 0;
+    background: #f5133b;
+    border-radius: 0.1rem;
+    float: right;
+}
+.m_layout .bottom .but p{
+    font-size: 0.36rem;
+    color: white;
+    line-height: 0.8rem;
+    text-align: center;
+}

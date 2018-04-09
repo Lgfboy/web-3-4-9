@@ -1,0 +1,282 @@
+
+.m_layout .head-f{
+    width: 100%;
+    min-width: 3.2rem;
+    max-width: 7.5rem;
+    height: 0.88rem;
+    background:#e3393c;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+}
+/*left*/
+.m_layout .head-f .left{
+    width: 1.8rem;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0.2rem;
+    margin-top: 0.14rem;
+}
+.m_layout .head-f .left img{
+    width: 0.54rem;
+    height: auto;
+
+    vertical-align: middle;
+}
+.m_layout .head-f .left p{
+    font-size: 0.32rem;
+    color: #fffbff;
+    display: inline-block;
+    vertical-align: middle;
+}
+/*content*/
+
+.m_layout .head-f .content{
+    position: fixed;
+    top: 0.2rem;
+    left: 44%;
+}
+
+.m_layout .head-f .content p{
+    font-size: 0.32rem;
+    color: #fffbff;
+}
+
+/*right*/
+
+.m_layout .head-f .right {
+    position: fixed;
+    right: 0.2rem;
+    top: 0.1rem;
+
+}
+.m_layout .head-f .right>a>img{
+    width: 0.7rem;
+    height: auto;
+    margin-right: 0.1rem;
+}
+.m_layout .head-f .right .nav{
+    display: inline-block;
+}
+.m_layout .head-f .right .nav>img{
+    width: 0.38rem;
+    height: auto;
+    margin-left: 0.06rem;
+}
+.m_layout .head-f .right .nav>p{
+    font-size: 0.22rem;
+    color: #fffbff;
+}
+/*name*/
+.m_layout .name{
+    background: url("../images/mybg.jpg")no-repeat;
+    background-size: 7.5rem auto;
+    width: 100%;
+    height: 1.7rem;
+    margin-top: 0.88rem;
+}
+.m_layout .name img{
+    width: 1.24rem;
+    height: auto;
+    vertical-align: middle;
+    margin: 0.2rem 0 0 0.2rem;
+}
+.m_layout .name p{
+    color: #fffbff;
+    font-size: 0.3rem;
+    display: inline-block;
+    vertical-align: -0.12rem;
+    margin-left: 0.2rem;
+}
+
+/*main*/
+/*优惠体系开始*/
+.m_layout .yh{
+    width: 100%;
+    height: 0.96rem;
+    border-bottom: 0.01rem solid #e8e8e8;
+}
+.m_layout .yh span{
+    color: #f74832;
+    font-size: 0.36rem;
+    font-weight: 500;
+}
+.m_layout .yh .left{
+    width: 47%;
+    height: 0.52rem;
+    float: left;
+    margin: 0.22rem 0 0 0.2rem;
+    text-align: center;
+}
+.m_layout .yh .left img{
+    width: 0.34rem;
+    height: auto;
+    vertical-align: middle;
+}
+.m_layout .yh .left p{
+    display: inline-block;
+    color:#595759;
+    font-size: 0.3rem;
+    vertical-align: middle;
+}
+
+.m_layout .yh .right{
+    width: 47%;
+    height: 0.52rem;
+    float: right;
+    margin: 0.22rem 0.2rem 0 0;
+    text-align: center;
+    border-left: 0.01rem solid #e8e8e8;
+}
+.m_layout .yh .right img{
+    width: 0.34rem;
+    height: auto;
+    vertical-align: middle;
+}
+.m_layout .yh .right p{
+    display: inline-block;
+    color:#595759;
+    font-size: 0.3rem;
+    vertical-align: middle;
+}
+/*订单、装修。开始*/
+.m_layout .ddn{
+    width: 100%;
+    height: 0.96rem;
+    border-bottom: 0.01rem solid #e8e8e8;
+    border-top: 0.01rem solid #e8e8e8;
+    margin-top: 0.18rem;
+}
+
+.m_layout .ddn img{
+    width: 0.48rem;
+    height: auto;
+    vertical-align: middle;
+    margin: 0.26rem 0 0 0.2rem;
+}
+.m_layout .ddn p{
+    font-size: 0.3rem;
+    color: #7f7f7f;
+    display: inline-block;
+    vertical-align: -0.16rem;
+}
+.m_layout .dd-x{
+    width: 100%;
+    height: 1.46rem;
+    border-bottom: 0.01rem solid #e8e8e8;
+}
+.m_layout .dd-x .d1{
+    width: 1.3rem;
+    height: auto;
+    text-align: center;
+    margin: 0.2rem 0.30rem 0 0.2rem;
+    display: inline-block;
+}
+.m_layout .dd-x .d1 img{
+    width: 0.56rem;
+    height: auto;
+}
+.m_layout .dd-x .d1 p{
+    font-size: 0.28rem;
+    color: #9d9a9d;
+}
+/*购物车开始*/
+.m_layout .gwc{
+    width: 100%;
+    height: 0.92rem;
+    border-bottom: 0.01rem solid #e8e8e8;
+    border-top: 0.01rem solid #e8e8e8;
+    margin-top: 0.18rem;
+}
+.m_layout .gwc>a>img{
+    width: 0.6rem;
+    height: auto;
+    vertical-align: middle;
+    margin: 0.22rem 0 0 0.2rem;
+}
+.m_layout .gwc>a>p{
+    display: inline-block;
+    font-size: 0.26rem;
+    color: #3a3d3a;
+    vertical-align: -0.14rem;
+}
+.m_layout .gwc .right{
+    float: right;
+    width: 2rem;
+    height: auto;
+    margin-top: 0.22rem;
+    margin-right: 0.2rem;
+}
+.m_layout .gwc .right span{
+    font-size: 0.18rem;
+    color: #cfcfcf;
+    vertical-align: middle;
+    /*margin-left: rem;*/
+}
+.m_layout .gwc .right img{
+    width: 0.24rem;
+    height: auto;
+    vertical-align: middle;
+}
+/*收货地址开始*/
+.m_layout .my-d{
+    width: 100%;
+    height: 0.92rem;
+    border-bottom: 0.01rem solid #e8e8e8;
+}
+.m_layout .my-d>a>img{
+    width: 0.6rem;
+    height: auto;
+    vertical-align: middle;
+    margin: 0.22rem 0 0 0.2rem;
+}
+.m_layout .my-d>a>p{
+    display: inline-block;
+    font-size: 0.26rem;
+    color: #3a3d3a;
+    vertical-align: -0.14rem;
+}
+.m_layout .my-d .right{
+    float: right;
+    width: 0.5rem;
+    height: auto;
+    margin-top: 0.22rem;
+}
+.m_layout .my-d .right img{
+    width: 0.24rem;
+    height: auto;
+    margin-top: 0.06rem;
+}
+/*退出按钮开始*/
+.m_layout .but{
+    width: 100%;
+    height:2rem;
+}
+.m_layout .but .value{
+    width: 7.04rem;
+    height: 0.72rem;
+    background:#f75542;
+    border-radius: 0.1rem;
+    text-align: center;
+    margin: 0.3rem 0 0 0.23rem;
+}
+.m_layout .but .value p{
+    font-size: 0.32rem;
+    color: #feedec;
+    line-height: 0.72rem;
+}
+/*底部导航*/
+.bottom{
+    max-width: 7.5rem;
+    min-width: 3.2rem;
+    height: auto;
+}
+.bottom .bottom-nav{
+    width: 100%;
+    height: auto;
+    background: rgba(0,0,0,0.55);
+    position: fixed;
+    text-align: center;
+}
